@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remotes -->
+    <remote name="LineageOS" fetch="https://github.com/LineageOS" clone-depth="1" />
+    <remote name="Edward0181" fetch="https://github.com/edward0181" clone-depth="1" />
+    <!-- Removals -->
+    <!-- Repos -->
+    <!-- Device -->
+    <project path="device/samsung/a23xq" name="device_samsung_a23xq" remote="Edward0181" revision="lineage-21.0" />
+    <!-- Device - Common -->
+    <project path="device/samsung/sm6375-common" name="device_samsung_sm6375-common" remote="Edward0181" revision="lineage-21.0" />
+    <!-- Kernel -->
+    <project path="kernel/samsung/sm6375" name="android_kernel_samsung_sm6375" remote="Edward0181" revision="lineage-21.0" />
+
+    <!-- Vendor -->
+    <project path="vendor/samsung/a23xq" name="vendor_samsung_a23xq" remote="Edward0181" revision="lineage-21.0" />
+    <!-- Vendor - Common -->
+    <project path="vendor/samsung/sm6375" name="vendor_samsung_sm6375-common" remote="Edward0181" revision="lineage-21.0" />
+    <!-- Hardware -->
+    <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-21.0" />
+
+</manifest>
